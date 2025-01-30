@@ -4,7 +4,7 @@ class LaneKeepingEnv:
     def __init__(self, road_width=10, lane_width=3):
         self.road_width = road_width
         self.lane_width = lane_width
-        self.position = road_width // 2  # Start in the center of the road
+        self.position = road_width // 2  # test db Start in the center of the road
         self.done = False
         self.total_reward = 0
 
